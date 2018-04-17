@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+# rose
+ROSE - Research on Open SRv6 Ecosystem, from Host Stack and APIs to Cloud Infrastructures
+
 
 You can use the [editor on GitHub](https://github.com/netgroup/rose/edit/master/docs/README.md) to maintain and preview the content for your website in Markdown files.
 

@@ -6,7 +6,7 @@ The Segment Routing architecture can be implemented using MPLS or IPv6 as data p
 
 [SRv6 SDN Architecture and Southbound APIs](#srv6-sdn-architecture-and-southbound-apis)
 
-[Testbeds IntErconnections with L2 overlays – SRv6 for SFC](#testbeds-interconnections-with-l2-overlays–-srv6-for-sfc)
+[Testbeds IntErconnections with L2 overlays – SRv6 for SFC](#testbeds-interconnections-with-l2-overlays--srv6-for-sfc)
 
 [pyroute2 extensions to support SRv6](#pyroute2-extensions-to-support-srv6)
 
@@ -36,6 +36,7 @@ TODO: Add the links to these repos:
 ### pyroute2 extensions to support SRv6
 
 patch: <https://github.com/svinota/pyroute2/commit/dd8cb44033ead2d65d73ad288cf45be0fbfeee50>
+
 Features:
 - Introduces IPRoute support for SRv6 tunnel
 - Adds encap and inline modes

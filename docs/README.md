@@ -3,9 +3,13 @@ Segment Routing (SR) is a form of source routing. The SR architecture works by i
 The Segment Routing architecture can be implemented using MPLS or IPv6 as data plane. We focus on the IPv6 implementation, called _SRv6_, in which the _segments_ are identified by IPv6 addresses. SRv6 supports advanced services like Traffic Engineering, Service Function Chaining and Virtual Private Networks in IPv6 backbones and datacenters. 
 
 [SREXT kernel module](#SREXT-kernel-module)
+
 [SRv6 SDN Architecture and Southbound APIs](#SRv6-SDN-Architecture-and-Southbound-APIs)
+
 [Testbeds IntErconnections with L2 overlays – SRv6 for SFC](#Testbeds-IntErconnections-with-L2-overlays–SRv6-for-SFC)
+
 [pyroute2 extensions to support SRv6](#pyroute2-extensions-to-support-SRv6)
+
 [The Team](#The-Team)
 
 ### SREXT kernel module
@@ -20,13 +24,13 @@ TODO: Add the links to repos of the Southbound APIs libraries in the Controller 
 
 The work concerns the deployment of arbitrary overlay topologies over multiple testbeds and the Service Function Chaining using SRv6 (IPv6 Segment Routing): “TIE-SR: Testbeds IntErconnections with L2 overlays – SRv6 for SFC” (see slides: https://goo.gl/utvxzF).
 
-TODO: Add the links to the repos 
+TODO: Add the links to these repos: 
 
--  test-rdcl the webgui, it produces a json representation of the topology it also offers a web URL to receive the notification from openbaton
-- dreamer-topology-parser-and-validator it is a library to parse the json representation of the topology
-- softfire-tiesr-deployer it produces the configuration files to setup the VMs, in particular to
+-  **test-rdcl** the webgui, it produces a json representation of the topology it also offers a web URL to receive the notification from openbaton
+- **dreamer-topology-parser-and-validator** it is a library to parse the json representation of the topology
+- **softfire-tiesr-deployer** it produces the configuration files to setup the VMs, in particular to
     create the vxlan tunnels
-- softfire-tiesr-scripts these scripts are run over the VMs, they take into account the
+- **softfire-tiesr-scripts** these scripts are run over the VMs, they take into account the
     configuration files and consequently setup the VM
 
 ### pyroute2 extensions to support SRv6
@@ -38,6 +42,7 @@ Features:
 - Supports hmac functionality for SRH
 - Initial parsing of human friendly form
 - Add seg6_encap_info for RTA_ENCAP mgmt
+
 Available on github https://github.com/svinota/pyroute2
 
 ### The Team

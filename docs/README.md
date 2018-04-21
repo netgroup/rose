@@ -2,15 +2,15 @@ Segment Routing (SR) is a form of source routing. The SR architecture works by i
 
 The Segment Routing architecture can be implemented using MPLS or IPv6 as data plane. We focus on the IPv6 implementation, called _SRv6_, in which the _segments_ are identified by IPv6 addresses. SRv6 supports advanced services like Traffic Engineering, Service Function Chaining and Virtual Private Networks in IPv6 backbones and datacenters. 
 
-[SREXT kernel module](#SREXT-kernel-module)
+[SREXT kernel module](#srext-kernel-module)
 
-[SRv6 SDN Architecture and Southbound APIs](#SRv6-SDN-Architecture-and-Southbound-APIs)
+[SRv6 SDN Architecture and Southbound APIs](#srv6-sdn-architecture-and-southbound-apis)
 
-[Testbeds IntErconnections with L2 overlays – SRv6 for SFC](#Testbeds-IntErconnections-with-L2-overlays–SRv6-for-SFC)
+[Testbeds IntErconnections with L2 overlays – SRv6 for SFC](#testbeds-interconnections-with-l2-overlays–srv6-for-sfc)
 
-[pyroute2 extensions to support SRv6](#pyroute2-extensions-to-support-SRv6)
+[pyroute2 extensions to support SRv6](#pyroute2-extensions-to-support-srv6)
 
-[The Team](#The-Team)
+[The Team](#the-team)
 
 ### SREXT kernel module
 

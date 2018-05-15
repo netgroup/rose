@@ -20,13 +20,15 @@ The Segment Routing architecture can be implemented using MPLS or IPv6 as data p
 
 TODO: Add the links to repos of the Southbound APIs libraries in the Controller and to the modules in the SRv6 node
 
+[SRv6 Southbound API evaluation](https://github.com/mohammad59mt/srv6-southbound-api-evaluation) is a library for performance evaluation of the SRv6 Southbound APIs.
+
 ### Testbeds IntErconnections with L2 overlays – SRv6 for SFC 
 
 The work concerns the deployment of arbitrary overlay topologies over multiple testbeds and the Service Function Chaining using SRv6 (IPv6 Segment Routing): “TIE-SR: Testbeds IntErconnections with L2 overlays – SRv6 for SFC” (see slides: <https://goo.gl/utvxzF>).
 
 TODO: Add the links to these repos: 
 
--  **test-rdcl** the webgui, it produces a json representation of the topology it also offers a web URL to receive the notification from openbaton
+- **test-rdcl** the webgui, it produces a json representation of the topology it also offers a web URL to receive the notification from openbaton
 - **dreamer-topology-parser-and-validator** it is a library to parse the json representation of the topology
 - **softfire-tiesr-deployer** it produces the configuration files to setup the VMs, in particular to
     create the vxlan tunnels
@@ -54,5 +56,5 @@ Available on github <https://github.com/svinota/pyroute2>
 - Stefano Salsano
 
 [//]: # "see \cite{idsrarch}\cite{filsfils2015segment}"
-[//]: # "# rose"
+[//]: # "# ROSE"
 [//]: # "ROSE - Research on Open SRv6 Ecosystem, from Host Stack and APIs to Cloud Infrastructures"

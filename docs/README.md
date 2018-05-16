@@ -42,6 +42,7 @@ TODO: Add the links to repos of the Southbound APIs libraries in the Controller 
 The emulation tools are a collection of projects meant to support SRv6 experiments both over Mininet and IAAS like testbeds. Hereafter the list of projects composing our emulation tools:
 
 - [Dreamer Topology Parser and Validator](https://github.com/netgroup/Dreamer-Topology-Parser) is a library to parse the json representation of the topology
+- [SRv6 Mininet Extensions](https://github.com/netgroup/srv6-mininet-extensions) is a library to create Mininet networks for testing of SRv6 technology
 
 ### Testbeds IntErconnections with L2 overlays – SRv6 for SFC 
 

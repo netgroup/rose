@@ -10,6 +10,8 @@ With a bottom up approach, [we](#the-team) present hereafter our open source _SR
 
 [SRv6 SDN Architecture and Southbound APIs](#srv6-sdn-architecture-and-southbound-apis)
 
+[Emulation tools](#emulation-tools)
+
 [Testbeds IntErconnections with L2 overlays – SRv6 for SFC](#testbeds-interconnections-with-l2-overlays--srv6-for-sfc)
 
 ### SREXT kernel module
@@ -35,6 +37,12 @@ TODO: Add the links to repos of the Southbound APIs libraries in the Controller 
 
 [SRv6 Southbound API evaluation](https://github.com/mohammad59mt/srv6-southbound-api-evaluation) is a library for performance evaluation of the SRv6 Southbound APIs.
 
+### Emulation tools
+
+The emulation tools are a collection of projects meant to support SRv6 experiments both over Mininet and IAAS like testbeds. Hereafter the list of projects composing our emulation tools:
+
+- [Dreamer Topology Parser and Validator](https://github.com/netgroup/Dreamer-Topology-Parser) is a library to parse the json representation of the topology
+
 ### Testbeds IntErconnections with L2 overlays – SRv6 for SFC 
 
 The work concerns the deployment of arbitrary overlay topologies over multiple testbeds and the Service Function Chaining using SRv6 (IPv6 Segment Routing): “TIE-SR: Testbeds IntErconnections with L2 overlays – SRv6 for SFC” (see slides: <https://goo.gl/utvxzF>).
@@ -42,7 +50,7 @@ The work concerns the deployment of arbitrary overlay topologies over multiple t
 TODO: Add the links to these repos: 
 
 - **test-rdcl** the webgui, it produces a json representation of the topology it also offers a web URL to receive the notification from openbaton
-- **dreamer-topology-parser-and-validator** it is a library to parse the json representation of the topology
+- [Dreamer Topology Parser and Validator](https://github.com/netgroup/Dreamer-Topology-Parser) is a library to parse the json representation of the topology
 - **softfire-tiesr-deployer** it produces the configuration files to setup the VMs, in particular to
     create the vxlan tunnels
 - **softfire-tiesr-scripts** these scripts are run over the VMs, they take into account the

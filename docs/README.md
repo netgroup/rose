@@ -52,8 +52,7 @@ TODO: Add the links to these repos:
 
 - **test-rdcl** the webgui, it produces a json representation of the topology it also offers a web URL to receive the notification from openbaton
 - [Dreamer Topology Parser and Validator](https://github.com/netgroup/Dreamer-Topology-Parser) is a library to parse the json representation of the topology
-- **softfire-tiesr-deployer** it produces the configuration files to setup the VMs, in particular to
-    create the vxlan tunnels
+- [SoftFire TIESR Deployer](https://github.com/netgroup/softfire-tiesr-deployer) creates the configuration of virtual networks for testing the SRv6 technology over IAAS like testbeds
 - **softfire-tiesr-scripts** these scripts are run over the VMs, they take into account the
     configuration files and consequently setup the VM
 

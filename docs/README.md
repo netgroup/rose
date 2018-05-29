@@ -35,16 +35,14 @@ The extension is available from 0.5 release.
 
 TODO: Add the links to these repos:
 
-- **srv6-southbound-api** is a library with different implementations of SRv6 Southbound APIs
+- **srv6-controller** is a collection of modules implementing different functionalities of a SDN controller
 - [SRv6 Southbound API evaluation](https://github.com/mohammad59mt/srv6-southbound-api-evaluation) is a library for performance evaluation of the SRv6 Southbound APIs.
 
 ### Emulation tools
 
 The emulation tools are a collection of projects meant to support SRv6 experiments both over Mininet and IAAS like testbeds. Hereafter the list of projects composing our emulation tools:
 
-TODO: Add the links to these repos: 
-
-- **test-rdcl** the webgui, it produces a json representation of the topology it also offers a web URL to receive the notification from openbaton
+- [RDCL 3D](https://github.com/superfluidity/RDCL3D) the webgui, it produces a json representation of the topology and allows the deployment and the control of the experiment
 - [Dreamer Topology Parser and Validator](https://github.com/netgroup/Dreamer-Topology-Parser) is a library to parse the json representation of the topology
 - [SRv6 Mininet Extensions](https://github.com/netgroup/srv6-mininet-extensions) is a library to create Mininet networks for testing of SRv6 technology
 - [SoftFire TIESR Deployer](https://github.com/netgroup/softfire-tiesr-deployer) creates the configuration of virtual networks for testing the SRv6 technology over IAAS like testbeds
@@ -54,13 +52,13 @@ TODO: Add the links to these repos:
 
 The work concerns the deployment of arbitrary overlay topologies over multiple testbeds and the Service Function Chaining using SRv6 (IPv6 Segment Routing): “TIE-SR: Testbeds IntErconnections with L2 overlays – SRv6 for SFC” (see slides: <https://goo.gl/utvxzF>).
 
-TODO: Add the links to these repos: 
+TODO: Add the links to these repos:
 
-- **test-rdcl** the webgui, it produces a json representation of the topology it also offers a web URL to receive the notification from openbaton
+- **softfire-rdcl3d** the webgui, it produces a json representation of the topology it also offers a web URL to receive the notification from openbaton
 - [Dreamer Topology Parser and Validator](https://github.com/netgroup/Dreamer-Topology-Parser) is a library to parse the json representation of the topology
 - [SoftFire TIESR Deployer](https://github.com/netgroup/softfire-tiesr-deployer) creates the configuration of virtual networks for testing the SRv6 technology over IAAS like testbeds
 - [SoftFire TIESR Scripts](https://github.com/netgroup/softfire-tiesr-scripts) these scripts are run over the VMs, they take into account the configuration files and consequently setup the VM
-- **srv6-southbound-api** is a library with different implementations of SRv6 Southbound APIs
+- **srv6-controller** is a collection of modules implementing different functionalities of a SDN controller
 
 ### The Team
 

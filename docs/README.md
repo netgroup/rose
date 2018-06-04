@@ -44,6 +44,7 @@ The emulation tools are a collection of projects meant to support SRv6 experimen
 
 - [RDCL 3D](https://github.com/superfluidity/RDCL3D) the webgui, it produces a json representation of the topology and allows the deployment and the control of the experiment
 - [Dreamer Topology Parser and Validator](https://github.com/netgroup/Dreamer-Topology-Parser) is a library to parse the json representation of the topology
+- [SRv6 Properties Generators](https://github.com/netgroup/srv6-properties-generators) is a library for the management of the addressing plan
 - [SRv6 Mininet Extensions](https://github.com/netgroup/srv6-mininet-extensions) is a library to create Mininet networks for testing of SRv6 technology
 - [SoftFire TIESR Deployer](https://github.com/netgroup/softfire-tiesr-deployer) creates the configuration of virtual networks for testing the SRv6 technology over IAAS like testbeds
 - [SoftFire TIESR Scripts](https://github.com/netgroup/softfire-tiesr-scripts) these scripts are run over the VMs, they take into account the configuration files and consequently setup the VM
@@ -56,6 +57,7 @@ TODO: Add the links to these repos:
 
 - **softfire-rdcl3d** the webgui, it produces a json representation of the topology it also offers a web URL to receive the notification from openbaton
 - [Dreamer Topology Parser and Validator](https://github.com/netgroup/Dreamer-Topology-Parser) is a library to parse the json representation of the topology
+- [SRv6 Properties Generators](https://github.com/netgroup/srv6-properties-generators) is a library for the management of the addressing plan
 - [SoftFire TIESR Deployer](https://github.com/netgroup/softfire-tiesr-deployer) creates the configuration of virtual networks for testing the SRv6 technology over IAAS like testbeds
 - [SoftFire TIESR Scripts](https://github.com/netgroup/softfire-tiesr-scripts) these scripts are run over the VMs, they take into account the configuration files and consequently setup the VM
 - **srv6-controller** is a collection of modules implementing different functionalities of a SDN controller

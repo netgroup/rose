@@ -63,6 +63,10 @@ TODO: Add the links to these repo:
 
 TODO: Upload videos and add links
 
+### VM image 
+
+TODO: Upload image and add link
+
 ### The Team
 
 - Stefano Salsano

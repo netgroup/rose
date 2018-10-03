@@ -8,7 +8,7 @@ With a bottom up approach, [we](#the-team) present hereafter our open source _SR
 
 [pyroute2 extensions to support SRv6](#pyroute2-extensions-to-support-srv6)
 
-[SRv6 SDN Architecture and Southbound APIs](#srv6-sdn-architecture-and-southbound-apis)
+[SRv6 SDN](#srv6-sdn)
 
 [Emulation tools](#emulation-tools)
 
@@ -31,12 +31,9 @@ Changelog:
 
 The extension is available from 0.5 release.
 
-### SRv6 SDN Architecture and Southbound APIs
+### SRv6 SDN
 
-TODO: Add the links to these repos:
-
-- **srv6-controller** is a collection of modules implementing different functionalities of a SDN controller
-- [SRv6 Southbound API evaluation](https://github.com/mohammad59mt/srv6-southbound-api-evaluation) is a library for performance evaluation of the SRv6 Southbound APIs.
+[SRv6 SDN](https://netgroup.github.io/srv6-sdn/) a collection of modules implementing different functionalities of a SDN controller for SRv6
 
 ### Emulation tools
 

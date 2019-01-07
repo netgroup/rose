@@ -6,7 +6,7 @@ With a bottom up approach, [we](#the-team) present hereafter our open source _SR
 
 [SREXT kernel module](#srext-kernel-module)
 
-[SRNK](#srnk)
+[SRNK SR proxy Native Kernel](#srnk)
 
 [pyroute2 extensions to support SRv6](#pyroute2-extensions-to-support-srv6)
 
@@ -20,9 +20,9 @@ With a bottom up approach, [we](#the-team) present hereafter our open source _SR
 
 [SREXT](https://netgroup.github.io/SRv6-net-prog/) is a kernel module providing the basic Segment Routing functions in addition to more advanced ones. It can be used as a standalone SRv6 implementation or as a complement to the existing SRv6 kernel implementation (kernel 4.10 and later kernels).
 
-### SRNK
+### SRNK - SR proxy Native Kernel
 
-[SRNK](https://netgroup.github.io/srnk/) is a SR proxy which acts as relay mechanism in order to support SRv6 unaware VNFs
+[SRNK](https://netgroup.github.io/srnk/) is an SR proxy which acts as relay mechanism in order to support SRv6 unaware VNFs. It is implemented extending the current support for SRv6 in Linux kernels (>= 4.14).
 
 ### pyroute2 extensions to support SRv6
 

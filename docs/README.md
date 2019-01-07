@@ -20,7 +20,7 @@ With a bottom up approach, [we](#the-team) present hereafter our open source _SR
 
 [SREXT](https://netgroup.github.io/SRv6-net-prog/) is a kernel module providing the basic Segment Routing functions in addition to more advanced ones. It can be used as a standalone SRv6 implementation or as a complement to the existing SRv6 kernel implementation (kernel 4.10 and later kernels).
 
-### SRNK (SR-Proxy Native Kernel)
+### SRNK
 
 [SRNK](https://netgroup.github.io/srnk/) is a SR proxy which acts as relay mechanism in order to support SRv6 unaware VNFs
 

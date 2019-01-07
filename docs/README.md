@@ -78,6 +78,7 @@ TODO: Upload image and add link
 - Stefano Salsano
 - Ahmed Abdelsalsam
 - Pier Luigi Ventre
+- Andrea Mayer
 - Mohammad M. Tajiki
 - Francesco Lombardo
 - Paolo Lungaroni

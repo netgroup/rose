@@ -77,11 +77,12 @@ TODO: Upload image and add link
 
 - Stefano Salsano
 - Ahmed Abdelsalsam
-- Pier Luigi Ventre
 - Andrea Mayer
-- Mohammad M. Tajiki
-- Francesco Lombardo
 - Paolo Lungaroni
+- Carmine Scarpitta
+- Pier Luigi Ventre
+- Francesco Lombardo
+- Mohammad M. Tajiki
 
 [//]: # "see \cite{idsrarch}\cite{filsfils2015segment}"
 [//]: # "# ROSE"

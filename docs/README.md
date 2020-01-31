@@ -2,7 +2,9 @@ Segment Routing (SR) is a form of source routing. The SR architecture works by i
 
 The Segment Routing architecture can be implemented using MPLS or IPv6 as data plane. We focus on the IPv6 implementation, called _SRv6_, in which the _segments_ are identified by IPv6 addresses. SRv6 supports advanced services like Traffic Engineering, Service Function Chaining and Virtual Private Networks in IPv6 backbones and datacenters. 
 
-With a bottom up approach, [we](#the-team) present hereafter our open source _SRv6_ ecosystem:
+[We](#the-team) list our published papers [below](#scientific-papers).
+
+[We](#the-team) present hereafter our open source _SRv6_ ecosystem, with a bottom up approach:   
 
 [SREXT kernel module](#srext-kernel-module)
 
@@ -17,6 +19,7 @@ With a bottom up approach, [we](#the-team) present hereafter our open source _SR
 [Emulation tools](#emulation-tools)
 
 [Testbeds IntErconnections with L2 overlays – SRv6 for SFC](#testbeds-interconnections-with-l2-overlays--srv6-for-sfc)
+
 
 ### SREXT kernel module
 
@@ -94,7 +97,7 @@ Submitted to a journal on June 2019, currently under review after first revision
 "[An Efficient Linux Kernel Implementation of Service Function Chaining for legacy VNFs based on IPv6 Segment Routing](https://arxiv.org/pdf/1901.00936)",
 5th IEEE International Conference on Network Softwarization (NetSoft 2019), 24-28 June 2019, Paris, France
 
--A. Mayer, E. Altomare, S. Salsano, F. Lo Presti, C. Filsfils,
+- A. Mayer, E. Altomare, S. Salsano, F. Lo Presti, C. Filsfils,
 "[The Network as a Computer with IPv6 Segment Routing: a Novel Distributed Processing Model for the Internet of Things](https://www.cse.wustl.edu/~cdgill/ngoscps2019/papers/NGOSCPS2019_Mayer_etal.pdf)",
 NGOSCPS workshop at the CPS-IoT Week 2019, April 15 2019, Montreal, Canada (pdf)
 

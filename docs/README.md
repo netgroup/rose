@@ -10,6 +10,8 @@ With a bottom up approach, [we](#the-team) present hereafter our open source _SR
 
 [pyroute2 extensions to support SRv6](#pyroute2-extensions-to-support-srv6)
 
+[SRv6 PM - Performance Monitoring](#srv6-pm-srv6-performance-monitoring) 
+
 [SRv6 SDN](#srv6-sdn)
 
 [Emulation tools](#emulation-tools)
@@ -39,7 +41,7 @@ The extension is available from 0.5 release.
 
 ### SRv6-PM (SRv6 Performance monitoring)
 
-[srv6-pm](https://netgroup.github.io/srv6-pm/) We have implemented accurate Per-Flow Packet Loss Monitoring in Linux kernel
+[srv6-pm](https://netgroup.github.io/srv6-pm/) accurate Per-Flow Packet Loss Monitoring in Linux kernel
 
 ### SRv6 SDN
 

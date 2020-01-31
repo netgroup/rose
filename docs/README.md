@@ -37,6 +37,10 @@ Changelog:
 
 The extension is available from 0.5 release.
 
+### SRv6-PM (SRv6 Performance monitoring)
+
+[srv6-pm](https://netgroup.github.io/srv6-pm/) We have implemented accurate Per-Flow Packet Loss Monitoring in Linux kernel
+
 ### SRv6 SDN
 
 [SRv6 SDN](https://netgroup.github.io/srv6-sdn/) a collection of modules implementing different functionalities of a SDN controller for SRv6
@@ -81,6 +85,7 @@ TODO: Upload image and add link
 - Paolo Lungaroni
 - Carmine Scarpitta
 - Pier Luigi Ventre
+- Pierpaolo Loreti
 - Francesco Lombardo
 - Mohammad M. Tajiki
 

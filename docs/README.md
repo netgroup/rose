@@ -2,9 +2,7 @@ Segment Routing (SR) is a form of source routing. The SR architecture works by i
 
 The Segment Routing architecture can be implemented using MPLS or IPv6 as data plane. We focus on the IPv6 implementation, called _SRv6_, in which the _segments_ are identified by IPv6 addresses. SRv6 supports advanced services like Traffic Engineering, Service Function Chaining and Virtual Private Networks in IPv6 backbones and datacenters. 
 
-[We](#the-team) list our published papers [below](#scientific-papers).
-
-[We](#the-team) present hereafter our open source _SRv6_ ecosystem, with a bottom up approach:   
+[We](#the-team) list our published papers [below](#scientific-papers) and present hereafter our open source _SRv6_ ecosystem, with a bottom up approach:   
 
 [SREXT kernel module](#srext-kernel-module)
 

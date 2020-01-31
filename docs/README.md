@@ -31,9 +31,9 @@ With a bottom up approach, [we](#the-team) present hereafter our open source _SR
 [pyroute2](https://github.com/svinota/pyroute2) is a lightweight netlink library written in python. We submitted a patch which adds the support for _SRv6_ basic functionality.
 
 Changelog:
-- Introduces IPRoute support for SRv6 tunnel
-- Adds encap and inline modes
-- Supports hmac functionality for SRH
+- Introduce IPRoute support for SRv6 tunnel
+- Add encap and inline modes
+- Support hmac functionality for SRH
 - Initial parsing of human friendly form
 - Add seg6_encap_info for RTA_ENCAP mgmt
 

@@ -6,7 +6,7 @@ The Segment Routing architecture can be implemented using MPLS or IPv6 as data p
 
 [SREXT kernel module](#srext-kernel-module)
 
-[SRNK SR proxy Native Kernel](#srnk)
+[SRNK SR proxy Native Kernel](#srnk-sr-proxy-native-kernel)
 
 [pyroute2 extensions to support SRv6](#pyroute2-extensions-to-support-srv6)
 

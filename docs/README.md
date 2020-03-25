@@ -10,6 +10,8 @@ The Segment Routing architecture can be implemented using MPLS or IPv6 as data p
 
 [pyroute2 extensions to support SRv6](#pyroute2-extensions-to-support-srv6)
 
+[SRv6 uSID (micro segment) implementation on P4](#SRv6-uSID-micro-segment-implementation-on-P4)
+
 [SRv6 PM - Performance Monitoring](#srv6-pm-srv6-performance-monitoring) 
 
 [SRv6 SDN](#srv6-sdn)
@@ -39,6 +41,13 @@ Changelog:
 - Add seg6_encap_info for RTA_ENCAP mgmt
 
 The extension is available from 0.5 release.
+
+### SRv6 uSID (micro segment) implementation on P4
+
+The SRv6 "micro segment" (uSID for short) solution is an extension to the SRv6 Network Programming model.
+It allows expressing SRv6 segments with a very compact and efficient representation.
+
+[p4-srv6-usid](https://netgroup.github.io/p4-srv6-usid/) implements the SRv6 uSID solution using the P4 language and shows a DEMO.
 
 ### SRv6-PM (SRv6 Performance monitoring)
 

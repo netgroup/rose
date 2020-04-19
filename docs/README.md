@@ -44,10 +44,11 @@ The extension is available from 0.5 release.
 
 ### SRv6 uSID (micro segment) implementation on P4
 
-The SRv6 "micro segment" (uSID for short) solution is an extension to the SRv6 Network Programming model.
-It allows expressing SRv6 segments with a very compact and efficient representation.
+[p4-srv6-usid](https://netgroup.github.io/p4-srv6-usid/) implements the SRv6 "micro segment"
+(uSID for short) solution using the P4 language and shows a DEMO.
 
-[p4-srv6-usid](https://netgroup.github.io/p4-srv6-usid/) implements the SRv6 uSID solution using the P4 language and shows a DEMO.
+The SRv6 uSID solution is an extension to the SRv6 Network Programming model, which
+allows expressing SRv6 segments with a very compact and efficient representation.
 
 ### SRv6-PM (SRv6 Performance monitoring)
 

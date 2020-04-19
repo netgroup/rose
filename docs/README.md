@@ -10,7 +10,7 @@ The Segment Routing architecture can be implemented using MPLS or IPv6 as data p
 
 [pyroute2 extensions to support SRv6](#pyroute2-extensions-to-support-srv6)
 
-[SRv6 uSID (micro segment) implementation on P4](#SRv6-uSID-micro-segment-implementation-on-P4)
+[SRv6 uSID (micro segment) implementation on P4](#srv6-usid-micro-segment-implementation-on-p4)
 
 [SRv6 PM - Performance Monitoring](#srv6-pm-srv6-performance-monitoring) 
 

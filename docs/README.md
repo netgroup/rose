@@ -10,6 +10,8 @@ The Segment Routing architecture can be implemented using MPLS or IPv6 as data p
 
 [pyroute2 extensions to support SRv6](#pyroute2-extensions-to-support-srv6)
 
+[SRPerf performance evaluation for SRv6 implementations](#srperf-a-performance-evaluation-framework-for-srv6-implementations)
+
 [SRv6 uSID (micro segment) implementation on P4](#srv6-usid-micro-segment-implementation-on-p4)
 
 [SRv6 PM - Performance Monitoring](#srv6-pm-srv6-performance-monitoring) 
@@ -42,6 +44,10 @@ Changelog:
 
 The extension is available from 0.5 release.
 
+### SRPerf - a Performance Evaluation Framework for SRv6 implementations
+
+[SRPerf](https://srouting.github.io/SRPerf/) is a performance evaluation framework for software and hardware implementations of SRv6.
+
 ### SRv6 uSID (micro segment) implementation on P4
 
 [p4-srv6-usid](https://netgroup.github.io/p4-srv6-usid/) implements the SRv6 "micro segment"
@@ -73,9 +79,7 @@ The emulation tools are a collection of projects meant to support SRv6 experimen
 
 The work concerns the deployment of arbitrary overlay topologies over multiple testbeds and the Service Function Chaining using SRv6 (IPv6 Segment Routing): “TIE-SR: Testbeds IntErconnections with L2 overlays – SRv6 for SFC” (see slides: <https://goo.gl/utvxzF>).
 
-TODO: Add the links to these repo:
-
-- **softfire-rdcl3d** the webgui, it produces a json representation of the topology it also offers a web URL to receive the notification from openbaton
+- **softfire-rdcl3d** the webgui, it produces a json representation of the topology it also offers a web URL to receive the notification from openbaton (TODO: Add the links to this repo)
 - [Dreamer Topology Parser and Validator](https://github.com/netgroup/Dreamer-Topology-Parser) is a library to parse the json representation of the topology
 - [SRv6 Properties Generators](https://github.com/netgroup/srv6-properties-generators) is a library for the management of the addressing plan
 - [SoftFire TIESR Deployer](https://github.com/netgroup/softfire-tiesr-deployer) creates the configuration of virtual networks for testing the SRv6 technology over IAAS like testbeds
@@ -100,6 +104,9 @@ IEEE Transaction on Network and Service Management, Vol. 15, Issue 4, Dec 2018
 "[Segment Routing: a Comprehensive Survey of Research Activities, Standardization Efforts and Implementation Results](https://arxiv.org/pdf/1904.03471)",
 Submitted to a journal on June 2019, currently under review after first revision.
 
+- A. Abdelsalam, P. L. Ventre, C. Scarpitta, A. Mayer, S. Salsano, P. Camarillo, F. Clad, C. Filsfils,
+"[SRPerf: a Performance Evaluation Framework for IPv6 Segment Routing](https://arxiv.org/pdf/2001.06182)",
+Submitted to a journal, currently under review.
 
 - A. Mayer, S. Salsano, P. L. Ventre, A. Abdelsalam, L. Chiaraviglio, C. Filsfils,
 "[An Efficient Linux Kernel Implementation of Service Function Chaining for legacy VNFs based on IPv6 Segment Routing](https://arxiv.org/pdf/1901.00936)",

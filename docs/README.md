@@ -12,6 +12,8 @@ The Segment Routing architecture can be implemented using MPLS or IPv6 as data p
 
 [SRPerf performance evaluation for SRv6 implementations](#srperf---a-performance-evaluation-framework-for-srv6-implementations)
 
+[SRv6 uSID (micro segment) implementation in Linux](#srv6-usid-micro-segment-implementation-in-linux)
+
 [SRv6 uSID (micro segment) implementation on P4](#srv6-usid-micro-segment-implementation-on-p4)
 
 [SRv6 PM - Performance Monitoring](#srv6-pm-srv6-performance-monitoring) 
@@ -47,6 +49,13 @@ The extension is available from 0.5 release.
 ### SRPerf - a Performance Evaluation Framework for SRv6 implementations
 
 [SRPerf](https://srouting.github.io/SRPerf/) is a performance evaluation framework for software and hardware implementations of SRv6.
+
+### SRv6 uSID (micro segment) implementation in Linux
+
+[This project](https://netgroup.github.io/srv6-usid-linux-kernel/) implements the SRv6 "micro segment"
+(uSID for short) solution in Linux.
+
+The processing of micro segments is performed by the Linux kernel, extending the existing SRv6 implementation. The iproute2 userspace tool has been modified to support the configuration of the SRv6 uSIDs.
 
 ### SRv6 uSID (micro segment) implementation on P4
 

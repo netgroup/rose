@@ -4,7 +4,7 @@ The Segment Routing architecture can be implemented using MPLS or IPv6 as data p
 
 [We](#the-team) list our published papers [below](#scientific-papers) and present hereafter our open source _SRv6_ ecosystem, with a bottom up approach.
 
-If you want to contribute to the ecosystem, provide feedback or [get in touch with us. see here](rose-contacts.md).
+If you want to contribute to the ecosystem, provide feedback or **get in touch with us**, see our [contact page](rose-contacts.md).
 
 [SREXT kernel module](#srext-kernel-module)
 
@@ -22,7 +22,7 @@ If you want to contribute to the ecosystem, provide feedback or [get in touch wi
 
 [SRv6 SDN](#srv6-sdn)
 
-[rose-srv6 VM](#srv6-sdn)
+[rose-srv6 VM](#rose-srv6-vm)
 
 [Emulation tools](#emulation-tools)
 
@@ -84,7 +84,7 @@ The rose-srv6 VM includes an emulated network environment based on Mininet and
 relies on the Linux kernel for implementing the SRv6 data plane. In the control plane, the Linux nodes offer
 a gRPC southbound API to a controller developed in python. 
 
-[Download and installation instructions](rose-vm.md).
+[Download and installation instructions](https://github.com/netgroup/rose/blob/master/docs/rose-vm.md).
 
 
 ### Emulation tools

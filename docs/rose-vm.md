@@ -12,6 +12,10 @@ developed in python.
 
 The rose-srv6 VM is currently available for the Virtualbox hypervisor ([download](https://www.virtualbox.org/wiki/Downloads)).
 We also support Vagrant ([download](https://www.vagrantup.com/downloads.html)) to manage the provisioning of the VM.
+
+The rose-srv6 VM will be used in the IEEE HPSR tutorial, if you want to replicate the experiments during the hands-on part.
+We invite you to subscribe to our [slack workspace](http://rose-slack.netgroup.uniroma2.it:3000/) (channel #hpsr-tutorial)
+for getting support about the rose-srv6 VM. See also our [contact page](https://netgroup.github.io/rose/rose-contacts.html).
  
 
 ### Option 1. Direct download of .ova image for Virtualbox

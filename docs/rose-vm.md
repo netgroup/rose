@@ -1,9 +1,12 @@
-# ROSE ready-to-go Virtual Machine
+# ROSE ready-to-go Virtual Machine (rose-srv6)
 
-A ready-to-go Virtual Machine is available, to be used for tutorial and/or development purposes.
+A ready-to-go Virtual Machine is available for tutorial and development purposes.
 
-The ROSE VM includes an integrated development and test environment, based on Mininet and the
-Linux kernel for the SRv6 data plane.
+The rose-srv6 VM includes an emulated network environment based on Mininet and 
+relies on the Linux kernel for implementing the SRv6 data plane.
+
+In the control plane, the Linux nodes offers a gRPC southbound API to a controller
+developed in python.
 
 ## How to install
 

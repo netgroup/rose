@@ -15,23 +15,47 @@ We also support Vagrant ([download](https://www.vagrantup.com/downloads.html)) t
 
 We assume that you have installed the latest version of [Virtualbox](https://www.virtualbox.org/wiki/Downloads). 
 
-Download [rose.v2.0.ova](http://swift.cloud.garr.it/swift/v1/rose/vm/rose-srv6.ova).
+Download [rose-srv6.ova](http://swift.cloud.garr.it/swift/v1/rose/vm/rose-srv6.ova).
 
-Import the .ova in Virtualbox (File-> Import Appliance)
+Import rose-srv6.ova in Virtualbox (File-> Import Appliance)
 
 ### Option 2. Deploy using Vagrant
 
 We assume that you have installed the latest version of [Virtualbox](https://www.virtualbox.org/wiki/Downloads) and [Vagrant](https://www.vagrantup.com/downloads.html).
 
-#### 2.1 Deploy the VM from the Vagrant Cloud
-
-Simply run
+#### Option 2.1 Deploy the VM from the Vagrant Cloud
 
 ```
 vagrant init rosevm/xubuntu
 vagrant up
 ```
-If you want to change the VM name to rose-srv6, edit the Vagrantfile generated after the first command by adding:
+
+#### 2.2 Download the .box file from our repository
+
+Create a new directory rose-vm in your PC. 
+
+Download [rosevm-xubuntu.box](http://swift.cloud.garr.it/swift/v1/rose/vm/rosevm-xubuntu.box)
+in the directory rose-vm.
+
+Create a text file called "Vagrantfile" in the rose-vm directory, with this content:
+[Vagrantfile](../vagrant-from-box-file/Vagrantfile), then run:
+
+```
+cd rose-vm
+vagrant up
+```
+
+## Andvanced tips and tricks
+
+### Rename the VM in option 2.1
+
+In option 2.1, if you want to change the VM name to rose-srv6, edit the Vagrantfile auto-generated
+after the first command, find the following line:
+
+```
+  config.vm.box = "rosevm/xubuntu"
+```
+add the following three lines immediately afterwards:
 
 ```
   config.vm.provider "virtualbox" do |v|
@@ -39,22 +63,11 @@ If you want to change the VM name to rose-srv6, edit the Vagrantfile generated a
   end
 ```
 
-#### 2.2 Download the .box file from our repository
+### Scripted version of option 2.2 (for Linux)
 
-Clone the repository:
 ```
 git clone https://https://github.com/netgroup/rose-vm.git
-cd rose-vm
-```
-
-Download [rosevm-xubuntu.box](http://swift.cloud.garr.it/swift/v1/rose/vm/rosevm-xubuntu.box) and copy it
-in the directory [vagrant-from-box-file](vagrant-from-box-file)
-
-The Vagrantfile is [vagrant-from-box-file/Vagrantfile](vagrant-from-box-file/Vagrantfile).
-
-```
-cd vagrant-from-box-file
+cd rose-vm/vagrant-from-box-file
+wget http://swift.cloud.garr.it/swift/v1/rose/vm/rosevm-xubuntu.box
 vagrant up
 ```
-
-

@@ -22,6 +22,8 @@ If you want to contribute to the ecosystem, provide feedback or [get in touch wi
 
 [SRv6 SDN](#srv6-sdn)
 
+[rose-srv6 VM](#srv6-sdn)
+
 [Emulation tools](#emulation-tools)
 
 [Testbeds IntErconnections with L2 overlays – SRv6 for SFC](#testbeds-interconnections-with-l2-overlays--srv6-for-sfc)
@@ -74,6 +76,16 @@ allows expressing SRv6 segments with a very compact and efficient representation
 ### SRv6 SDN
 
 [SRv6 SDN](https://netgroup.github.io/srv6-sdn/) a collection of modules implementing different functionalities of a SDN controller for SRv6
+
+### rose-srv6 VM
+
+The [rose-srv6 VM](rose-vm.md) is a ready-to-go Virtual Machine available for tutorial and development purposes.
+The rose-srv6 VM includes an emulated network environment based on Mininet and 
+relies on the Linux kernel for implementing the SRv6 data plane. In the control plane, the Linux nodes offer
+a gRPC southbound API to a controller developed in python. 
+
+[Download and installation instructions](rose-vm.md).
+
 
 ### Emulation tools
 

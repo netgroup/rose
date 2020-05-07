@@ -4,7 +4,7 @@ The Segment Routing architecture can be implemented using MPLS or IPv6 as data p
 
 [We](#the-team) list our published papers [below](#scientific-papers) and present hereafter our open source _SRv6_ ecosystem, with a bottom up approach.
 
-If you want to contribute to the ecosystem, provide feedback or get in touch with us, see [here](rose-contacts.md).
+If you want to contribute to the ecosystem, provide feedback or [get in touch with us. see here](rose-contacts.md).
 
 [SREXT kernel module](#srext-kernel-module)
 

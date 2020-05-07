@@ -41,7 +41,7 @@ Download [rosevm-xubuntu.box](http://swift.cloud.garr.it/swift/v1/rose/vm/rosevm
 in the directory rose-vm.
 
 Create a text file called "Vagrantfile" in the rose-vm directory, with this content:
-[Vagrantfile](../vagrant-from-box-file/Vagrantfile), then run:
+[Vagrantfile](https://github.com/netgroup/rose-vm/raw/master/vagrant-from-box-file/Vagrantfile), then run:
 
 ```
 cd rose-vm

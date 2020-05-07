@@ -1,6 +1,6 @@
-# ROSE ready-to-go Virtual Machine (rose-srv6)
+# Ready-to-go Virtual Machine (rose-srv6)
 
-A ready-to-go Virtual Machine is available for tutorial and development purposes.
+The **rose-srv6** ready-to-go Virtual Machine is available for tutorial and development purposes.
 
 The rose-srv6 VM includes an emulated network environment based on Mininet and 
 relies on the Linux kernel for implementing the SRv6 data plane.
@@ -10,7 +10,7 @@ developed in python.
 
 ## How to install
 
-The ROSE VM is currently available for the Virtualbox hypervisor ([download](https://www.virtualbox.org/wiki/Downloads)).
+The rose-srv6 VM is currently available for the Virtualbox hypervisor ([download](https://www.virtualbox.org/wiki/Downloads)).
 We also support Vagrant ([download](https://www.vagrantup.com/downloads.html)) to manage the provisioning of the VM.
  
 
@@ -18,9 +18,9 @@ We also support Vagrant ([download](https://www.vagrantup.com/downloads.html)) t
 
 We assume that you have installed the latest version of [Virtualbox](https://www.virtualbox.org/wiki/Downloads). 
 
-Download [rose-srv6.ova](http://swift.cloud.garr.it/swift/v1/rose/vm/rose-srv6.ova).
+Download [rose-srv6.ova](http://swift.cloud.garr.it/swift/v1/rose/vm/rose-srv6.ova) (3.3 GB).
 
-Import rose-srv6.ova in Virtualbox (File-> Import Appliance)
+Import *rose-srv6.ova* in Virtualbox (File-> Import Appliance)
 
 ### Option 2. Deploy using Vagrant
 
@@ -35,10 +35,9 @@ vagrant up
 
 #### 2.2 Download the .box file from our repository
 
-Create a new directory rose-vm in your PC. 
+Download [rosevm-xubuntu.box](http://swift.cloud.garr.it/swift/v1/rose/vm/rosevm-xubuntu.box) (3.3 GB).
 
-Download [rosevm-xubuntu.box](http://swift.cloud.garr.it/swift/v1/rose/vm/rosevm-xubuntu.box)
-in the directory rose-vm.
+Create a new directory rose-vm in your PC and move the file *rosevm-xubuntu.box* inside. 
 
 Create a text file called "Vagrantfile" in the rose-vm directory, with this content:
 [Vagrantfile](https://github.com/netgroup/rose-vm/raw/master/vagrant-from-box-file/Vagrantfile), then run:

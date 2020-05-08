@@ -20,7 +20,7 @@ for getting support about the rose-srv6 VM. See also our [contact page](https://
 
 ### Option 1. Direct download of .ova image for Virtualbox
 
-We assume that you have installed the latest version of [Virtualbox](https://www.virtualbox.org/wiki/Downloads). 
+We assume that you have installed the latest version of [Virtualbox](https://www.virtualbox.org/wiki/Downloads) (6.1). 
 
 Download [rose-srv6.ova](http://swift.cloud.garr.it/swift/v1/rose/vm/rose-srv6.ova) (3.3 GB).
 
@@ -28,7 +28,7 @@ Import *rose-srv6.ova* in Virtualbox (File-> Import Appliance)
 
 ### Option 2. Deploy using Vagrant
 
-We assume that you have installed the latest version of [Virtualbox](https://www.virtualbox.org/wiki/Downloads) and [Vagrant](https://www.vagrantup.com/downloads.html).
+We assume that you have installed the latest version of [Virtualbox](https://www.virtualbox.org/wiki/Downloads) (6.1) and [Vagrant](https://www.vagrantup.com/downloads.html) (2.2.7).
 
 #### Option 2.1 Deploy the VM from the Vagrant Cloud
 

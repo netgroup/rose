@@ -42,7 +42,7 @@ vagrant up
 
 Not available now! Stay tuned...
 
-<---
+<!---
 Download [rosevm-xubuntu.box](http://swift.cloud.garr.it/swift/v1/rose/vm/rosevm-xubuntu.box) (3.3 GB).
 
 Create a new directory rose-vm in your PC and move the file *rosevm-xubuntu.box* inside. 
@@ -74,7 +74,7 @@ add the following three lines immediately afterwards:
   end
 ```
 
-<---
+<!---
 ### Scripted version of option 2.2 (for Linux)
 
 ```

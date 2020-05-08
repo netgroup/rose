@@ -51,7 +51,7 @@ cd rose-vm
 vagrant up
 ```
 
-## Andvanced tips and tricks
+## Advanced tips and tricks
 
 ### Rename the VM in option 2.1
 
@@ -77,3 +77,7 @@ cd rose-vm/vagrant-from-box-file
 wget http://swift.cloud.garr.it/swift/v1/rose/vm/rosevm-xubuntu.box
 vagrant up
 ```
+
+## Raw github version of this page (easier for working)
+
+https://github.com/netgroup/rose/blob/master/docs/rose-contacts.md

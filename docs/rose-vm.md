@@ -17,8 +17,9 @@ We also support Vagrant ([download](https://www.vagrantup.com/downloads.html)) t
 The rose-srv6 VM will be used in the IEEE HPSR tutorial, if you want to replicate the experiments during the hands-on part.
 We invite you to subscribe to our [slack workspace](http://rose-slack.netgroup.uniroma2.it:3000/) (channel #hpsr-tutorial)
 for getting support about the rose-srv6 VM. See also our [contact page](https://netgroup.github.io/rose/rose-contacts.html).
- 
 
+The **password** for the *rose* user on the rose-srv6 VM is `1234`.
+ 
 ### Option 1. Direct download of .ova image for Virtualbox
 
 We assume that you have installed the latest version of [Virtualbox](https://www.virtualbox.org/wiki/Downloads) (6.1). 

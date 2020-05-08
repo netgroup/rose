@@ -40,6 +40,9 @@ vagrant up
 
 #### 2.2 Download the .box file from our repository
 
+Not available now! Stay tuned...
+
+<---
 Download [rosevm-xubuntu.box](http://swift.cloud.garr.it/swift/v1/rose/vm/rosevm-xubuntu.box) (3.3 GB).
 
 Create a new directory rose-vm in your PC and move the file *rosevm-xubuntu.box* inside. 
@@ -51,6 +54,7 @@ Create a text file called "Vagrantfile" in the rose-vm directory, with this cont
 cd rose-vm
 vagrant up
 ```
+--->
 
 ## Advanced tips and tricks
 
@@ -70,6 +74,7 @@ add the following three lines immediately afterwards:
   end
 ```
 
+<---
 ### Scripted version of option 2.2 (for Linux)
 
 ```
@@ -78,6 +83,7 @@ cd rose-vm/vagrant-from-box-file
 wget http://swift.cloud.garr.it/swift/v1/rose/vm/rosevm-xubuntu.box
 vagrant up
 ```
+--->
 
 ## Raw github version of this page (easier for working)
 

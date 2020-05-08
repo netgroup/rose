@@ -11,14 +11,16 @@ developed in python.
 
 ## How to install
 
-The rose-srv6 VM is currently available for the Virtualbox hypervisor ([download](https://www.virtualbox.org/wiki/Downloads)).
+The rose-srv6 VM is currently available for the Virtualbox hypervisor ([download](https://www.virtualbox.org/wiki/Downloads)). It can also be used on VMware with minimal
+effort ([instructions here](#using-the-rose---srv6-vm-with-vmware-hypervisor)).
 We also support Vagrant ([download](https://www.vagrantup.com/downloads.html)) to manage the provisioning of the VM.
 
 The rose-srv6 VM will be used in the IEEE HPSR tutorial, if you want to replicate the experiments during the hands-on part.
 We invite you to subscribe to our [slack workspace](http://rose-slack.netgroup.uniroma2.it:3000/) (channel #hpsr-tutorial)
 for getting support about the rose-srv6 VM. See also our [contact page](https://netgroup.github.io/rose/rose-contacts.html).
 
-The **password** for the *rose* user on the rose-srv6 VM is `1234`.
+The **password** for the *rose* user on the rose-srv6 VM is `1234`. To adapt the VM
+to your keyboard layout see [below](#change-keyboard-layout).
  
 ### Option 1. Direct download of .ova image for Virtualbox
 
@@ -53,8 +55,27 @@ cd rose-vm
 vagrant up
 ```
 
-
 ## Advanced tips and tricks
+
+### Using the rose-srv6 VM with VMware hypervisor
+
+For using the rose-sev6 VM with VMware you need to remove Virtualbox guest additions:
+
+```
+cd /opt/VBoxGuestAdditions-6.1.6/
+sudo ./uninstall.sh
+```
+
+(I've followed [these instructions](https://askubuntu.com/questions/954376/removing-default-virtualbox-guest-additions)).
+
+### Change keyboard layout
+
+1. Open the Settings Manager : Menu -> Settings -> Keyboard.
+1. Switch to the Layout tab.
+1. Uncheck Use system defaults.
+1. Click the Add button and choose the appropriate keymap from the list.
+1. **Remove the previous keymap**
+1. Close the Settings Manager
 
 ### Rename the VM in option 2.1
 
@@ -71,7 +92,6 @@ add the following three lines immediately afterwards:
     v.name = "rose-srv6"
   end
 ```
-
 
 ### Scripted version of option 2.2 (for Linux)
 

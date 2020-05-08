@@ -1,6 +1,7 @@
 # Ready-to-go Virtual Machine (rose-srv6)
 
-The **rose-srv6** ready-to-go Virtual Machine is available for tutorial and development purposes.
+The **rose-srv6** ready-to-go Virtual Machine is available for tutorial and development purposes
+related to the [ROSE project](https://netgroup.github.io/rose/).
 
 The rose-srv6 VM includes an emulated network environment based on Mininet and 
 relies on the Linux kernel for implementing the SRv6 data plane.
@@ -80,4 +81,4 @@ vagrant up
 
 ## Raw github version of this page (easier for working)
 
-https://github.com/netgroup/rose/blob/master/docs/rose-contacts.md
+[https://github.com/netgroup/rose/blob/master/docs/rose-contacts.md](https://github.com/netgroup/rose/blob/master/docs/rose-contacts.md)

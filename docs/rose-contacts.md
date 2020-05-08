@@ -1,6 +1,6 @@
 # Contacts and how to contribute
 
-[We](#the-team) welcome your feedbacks and contributions!
+The [ROSE project](https://netgroup.github.io/rose/) [team](#the-team) welcomes your feedbacks and contributions!
 
 We have a [slack workspace](http://rose-slack.netgroup.uniroma2.it:3000) with separated channels per each sub-project
 and a mailing list [rose-srv6@googlegroups.com](mailto:rose-srv6@googlegroups.com). 

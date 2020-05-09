@@ -11,9 +11,8 @@ developed in python.
 
 ## How to install
 
-The rose-srv6 VM is currently available for the Virtualbox hypervisor ([download](https://www.virtualbox.org/wiki/Downloads)). It can also be used on VMware with minimal
-effort ([instructions here](#using-the-rose---srv6-vm-with-vmware-hypervisor)).
-We also support Vagrant ([download](https://www.vagrantup.com/downloads.html)) to manage the provisioning of the VM.
+The rose-srv6 VM is currently available for the Virtualbox hypervisor ([download](https://www.virtualbox.org/wiki/Downloads)) and for the VMware hypervisor.
+For Virtualbox, we also support Vagrant ([download](https://www.vagrantup.com/downloads.html)) to manage the provisioning of the VM.
 
 The rose-srv6 VM will be used in the IEEE HPSR tutorial, if you want to replicate the experiments during the hands-on part.
 We invite you to subscribe to our [slack workspace](http://rose-slack.netgroup.uniroma2.it:3000/) (channel #hpsr-tutorial)
@@ -21,8 +20,10 @@ for getting support about the rose-srv6 VM. See also our [contact page](https://
 
 The **password** for the *rose* user on the rose-srv6 VM is `1234`. To adapt the VM
 to your keyboard layout see [below](#change-keyboard-layout).
- 
-### Option 1. Direct download of .ova image for Virtualbox
+
+### Virtualbox hypervisor 
+
+#### Option 1. Direct download of .ova image for Virtualbox
 
 We assume that you have installed the latest version of [Virtualbox](https://www.virtualbox.org/wiki/Downloads) (6.1). 
 
@@ -30,18 +31,18 @@ Download [rose-srv6.ova](http://swift.cloud.garr.it/swift/v1/rose/vm/rose-srv6.o
 
 Import *rose-srv6.ova* in Virtualbox (File-> Import Appliance)
 
-### Option 2. Deploy using Vagrant
+#### Option 2. Deploy using Vagrant
 
 We assume that you have installed the latest version of [Virtualbox](https://www.virtualbox.org/wiki/Downloads) (6.1) and [Vagrant](https://www.vagrantup.com/downloads.html) (2.2.7).
 
-#### Option 2.1 Deploy the VM from the Vagrant Cloud
+##### Option 2.1 Deploy the VM from the Vagrant Cloud
 
 ```
 vagrant init rosevm/xubuntu
 vagrant up
 ```
 
-#### 2.2 Download the .box file from our repository
+##### 2.2 Download the .box file from our repository
 
 Download [rosevm-xubuntu.box](http://swift.cloud.garr.it/swift/v1/rose/vm/rosevm-xubuntu.box) (3.3 GB).
 
@@ -55,18 +56,13 @@ cd rose-vm
 vagrant up
 ```
 
+### VMware hypervisor 
+
+Download [rose-srv6-vmware.ova](http://swift.cloud.garr.it/swift/v1/rose/vm/rose-srv6-vmware.ova) (3.3 GB).
+
+Import the *rose-srv6-vmware.ova* as described [here](https://pubs.vmware.com/fusion-5/index.jsp?topic=%2Fcom.vmware.fusion.help.doc%2FGUID-275EF202-CF74-43BF-A9E9-351488E16030.html).
+
 ## Advanced tips and tricks
-
-### Using the rose-srv6 VM with VMware hypervisor
-
-For using the rose-sev6 VM with VMware you need to remove Virtualbox guest additions:
-
-```
-cd /opt/VBoxGuestAdditions-6.1.6/
-sudo ./uninstall.sh
-```
-
-(I've followed [these instructions](https://askubuntu.com/questions/954376/removing-default-virtualbox-guest-additions)).
 
 ### Change keyboard layout
 
@@ -101,6 +97,20 @@ cd rose-vm/vagrant-from-box-file
 wget http://swift.cloud.garr.it/swift/v1/rose/vm/rosevm-xubuntu.box
 vagrant up
 ```
+
+### Using the Virtualbox rose-srv6 VM with VMware hypervisor
+
+The Virtualbox rose-srv6 VM can also be used on VMware with some adaptation.
+For using it with VMware you need to remove Virtualbox guest additions:
+
+```
+cd /opt/VBoxGuestAdditions-6.1.6/
+sudo ./uninstall.sh
+```
+
+(I've followed [these instructions](https://askubuntu.com/questions/954376/removing-default-virtualbox-guest-additions)).
+
+
 
 ## Raw github version of this page (easier for working)
 

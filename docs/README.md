@@ -22,7 +22,7 @@ If you want to contribute to the ecosystem, provide feedback or **get in touch w
 
 [SRv6 SDN](#srv6-sdn)
 
-[rose-srv6 VM](#rose-srv6-vm)
+[rose-srv6 ready-to-go Virtual Machine](#rose-srv6-vm)
 
 [Emulation tools](#emulation-tools)
 

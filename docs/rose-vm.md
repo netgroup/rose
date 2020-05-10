@@ -115,3 +115,8 @@ sudo ./uninstall.sh
 ## Raw github version of this page (easier for working)
 
 [https://github.com/netgroup/rose/blob/master/docs/rose-contacts.md](https://github.com/netgroup/rose/blob/master/docs/rose-contacts.md)
+
+## github.io version of this page (nicer to read)
+
+[https://netgroup.github.io/rose/rose-vm.html](https://netgroup.github.io/rose/rose-vm.html)
+

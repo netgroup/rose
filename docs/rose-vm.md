@@ -110,6 +110,15 @@ sudo ./uninstall.sh
 
 (I've followed [these instructions](https://askubuntu.com/questions/954376/removing-default-virtualbox-guest-additions)).
 
+### List of git repositories
+
+- [https://github.com/netgroup/rose-vm](https://github.com/netgroup/rose-vm)
+- [https://github.com/netgroup/rose-vm-build](https://github.com/netgroup/rose-vm-build)
+- [https://github.com/netgroup/draft-srv6-tutorial](https://github.com/netgroup/draft-srv6-tutorial)
+- [https://github.com/netgroup/srv6-tutorial-controller](https://github.com/netgroup/srv6-tutorial-controller)
+- [https://github.com/netgroup/rose-dashboard](https://github.com/netgroup/rose-dashboard)
+- [https://github.com/netgroup/srv6-pm-flask](https://github.com/netgroup/srv6-pm-flask)
+- [https://github.com/netgroup/srv6-pm-dockerized](https://github.com/netgroup/srv6-pm-dockerized)
 
 
 ## Raw github version of this page (easier for working)

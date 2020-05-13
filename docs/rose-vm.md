@@ -116,7 +116,7 @@ sudo ./uninstall.sh
 - [https://github.com/netgroup/rose-vm-build](https://github.com/netgroup/rose-vm-build)
 - [https://github.com/netgroup/rose-srv6-tutorial](https://github.com/netgroup/rose-srv6-tutorial)
 - [https://github.com/netgroup/rose-dashboard](https://github.com/netgroup/rose-dashboard)
-- [https://github.com/netgroup/srv6-tutorial-controller](https://github.com/netgroup/srv6-tutorial-controller)
+- [https://github.com/netgroup/rose-srv6-control-plane](https://github.com/netgroup/rose-srv6-control-plane)
 - [https://github.com/netgroup/srv6-pm-flask](https://github.com/netgroup/srv6-pm-flask)
 - [https://github.com/netgroup/srv6-pm-dockerized](https://github.com/netgroup/srv6-pm-dockerized)
 

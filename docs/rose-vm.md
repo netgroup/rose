@@ -9,7 +9,7 @@ relies on the Linux kernel for implementing the SRv6 data plane.
 In the control plane, the Linux nodes offer a gRPC southbound API to a controller
 developed in python.
 
-## Tutorial for SRv6 based on rose-srv6 VM
+## SRv6 tutorials based on rose-srv6 VM
 
 ### ROSE-SRv6 tutorial on Linux - Part 1
 

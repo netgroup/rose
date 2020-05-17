@@ -9,6 +9,19 @@ relies on the Linux kernel for implementing the SRv6 data plane.
 In the control plane, the Linux nodes offer a gRPC southbound API to a controller
 developed in python.
 
+## Tutorial for SRv6 based on rose-srv6 VM
+
+### ROSE-SRv6 tutorial on Linux - Part 1
+
+- [Manual creation of SRv6 tunnels in the Linux SRv6 data plane](https://docs.google.com/document/d/18bVMeJ9SHgaFQwcIPgBOWBgP6ayUpyNNFNqRL0MhWgo/)
+
+(part of the HPSR 2020 tutorial: [Segment Routing over IPv6 (SRV6) and the Network Programming Model](
+https://hpsr2020.ieee-hpsr.org/program/tutorials/))
+
+### ROSE-SRv6 tutorial on Linux - Part 2
+
+- [ROSE Control Plane : setting up SRv6 tunnels from the SDN controller](https://docs.google.com/document/d/1izO3H8dUt7VoemXtcH-RG4cL127tG9m48edOdFFmktU/)
+
 ## How to install
 
 The rose-srv6 VM is currently available for the Virtualbox hypervisor ([download](https://www.virtualbox.org/wiki/Downloads)) and for the VMware hypervisor.

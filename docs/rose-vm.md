@@ -13,14 +13,14 @@ developed in python.
 
 ### ROSE-SRv6 tutorial on Linux - Part 1
 
-- [Manual creation of SRv6 tunnels in the Linux SRv6 data plane](https://docs.google.com/document/d/18bVMeJ9SHgaFQwcIPgBOWBgP6ayUpyNNFNqRL0MhWgo/)
+- [Manual creation of SRv6 tunnels in the Linux SRv6 data plane](https://docs.google.com/document/d/18bVMeJ9SHgaFQwcIPgBOWBgP6ayUpyNNFNqRL0MhWgo/){:target="_blank"}
 
 (part of the HPSR 2020 tutorial: [Segment Routing over IPv6 (SRV6) and the Network Programming Model](
 https://hpsr2020.ieee-hpsr.org/program/tutorials/))
 
 ### ROSE-SRv6 tutorial on Linux - Part 2
 
-- [ROSE Control Plane : setting up SRv6 tunnels from the SDN controller](https://docs.google.com/document/d/1izO3H8dUt7VoemXtcH-RG4cL127tG9m48edOdFFmktU/)
+- [ROSE Control Plane : setting up SRv6 tunnels from the SDN controller](https://docs.google.com/document/d/1izO3H8dUt7VoemXtcH-RG4cL127tG9m48edOdFFmktU/){:target="_blank"}
 
 ## How to install
 

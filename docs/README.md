@@ -4,9 +4,7 @@ The Segment Routing architecture can be implemented using MPLS or IPv6 as data p
 
 The ROSE project tackles multiple aspects of the SRv6 technology: Data Plane, Control Plane, SRv6 host networking stack, integration with applications, integration with Cloud/Data Center Infrastructures.
 
-ROSE builds up and maintain a Linux based Open Ecosystem for SRv6, composed of several sub-projects, like SRPerf (performance evaluation of SRv6 implementations), SRv6 SDN (gRPC based API for controlling SRv6 Linux routers), SRv6 uSID implementation in Linux and P4 and several others...
-
-[We](#the-team) list our published papers [below](#scientific-papers) and present hereafter our open source _SRv6_ ecosystem, with a bottom up approach.
+ROSE builds up and maintain a Linux based Open Ecosystem for SRv6, composed of several sub-projects, like SRPerf (performance evaluation of SRv6 implementations), SRv6 SDN (gRPC based API for controlling SRv6 Linux routers), SRv6 uSID implementation in Linux and P4 and several others. [We](#the-team) list our published papers [below](#scientific-papers) and present hereafter our open source _SRv6_ ecosystem, with a bottom up approach.
 
 If you want to contribute to the ecosystem, provide feedback or **get in touch with us**, see our [contact page](rose-contacts.md).
 

@@ -40,7 +40,7 @@ to your keyboard layout see [below](#change-keyboard-layout).
 
 We assume that you have installed the latest version of [Virtualbox](https://www.virtualbox.org/wiki/Downloads) (6.1). 
 
-Download [rose-srv6.ova](http://swift.cloud.garr.it/swift/v1/rose/vm/rose-srv6.ova) (3.3 GB).
+Download [rose-srv6.ova](http://rose-repo.netgroup.uniroma2.it/vm/rose-srv6.ova) (almost 4 GB).
 
 Import *rose-srv6.ova* in Virtualbox (File-> Import Appliance)
 
@@ -57,7 +57,7 @@ vagrant up
 
 ##### 2.2 Download the .box file from our repository
 
-Download [rosevm-xubuntu.box](http://swift.cloud.garr.it/swift/v1/rose/vm/rosevm-xubuntu.box) (3.3 GB).
+Download [rosevm-xubuntu.box](http://rose-repo.netgroup.uniroma2.it/vm/rosevm-xubuntu.box) (almost 4 GB).
 
 Create a new directory rose-vm in your PC and move the file *rosevm-xubuntu.box* inside. 
 
@@ -71,7 +71,7 @@ vagrant up
 
 ### VMware hypervisor 
 
-Download [rose-srv6-vmware.ova](http://swift.cloud.garr.it/swift/v1/rose/vm/rose-srv6-vmware.ova) (3.3 GB).
+Download [rose-srv6-vmware.ova](http://rose-repo.netgroup.uniroma2.it/vm/rose-srv6-vmware.ova) (almost 4 GB).
 
 Import the *rose-srv6-vmware.ova* as described [here](https://pubs.vmware.com/fusion-5/index.jsp?topic=%2Fcom.vmware.fusion.help.doc%2FGUID-275EF202-CF74-43BF-A9E9-351488E16030.html).
 

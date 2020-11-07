@@ -73,7 +73,7 @@ vagrant up
 
 Download [rose-srv6-vmware.ova](http://rose-repo.netgroup.uniroma2.it/vm/rose-srv6-vmware.ova) (almost 4 GB).
 
-Import the *rose-srv6-vmware.ova* as described [here](https://pubs.vmware.com/fusion-5/index.jsp?topic=%2Fcom.vmware.fusion.help.doc%2FGUID-275EF202-CF74-43BF-A9E9-351488E16030.html).
+Import the *rose-srv6-vmware.ova* as described [here](https://docs.vmware.com/en/VMware-Fusion/12/com.vmware.fusion.using.doc/GUID-275EF202-CF74-43BF-A9E9-351488E16030.html).
 
 ## Advanced tips and tricks
 

@@ -15,8 +15,8 @@ developed in python.
 
 - [Manual creation of SRv6 tunnels in the Linux SRv6 data plane](https://docs.google.com/document/d/18bVMeJ9SHgaFQwcIPgBOWBgP6ayUpyNNFNqRL0MhWgo/){:target="_blank"}
 
-(part of the HPSR 2020 tutorial: [Segment Routing over IPv6 (SRV6) and the Network Programming Model](
-https://hpsr2020.ieee-hpsr.org/program/tutorials/){:target="_blank"})
+(used in the HPSR 2020 tutorial: [Segment Routing over IPv6 (SRV6) and the Network Programming Model](
+https://hpsr2020.ieee-hpsr.org/program/tutorials/){:target="_blank"} and in the IEEE NFV-SDN tutorial: [SRv6 and the Network Programming Model Hands-On tutorial](https://nfvsdn2020.ieee-nfvsdn.org/program/tutorials/) ) 
 
 ### ROSE-SRv6 tutorial on Linux - Part 2
 
@@ -27,7 +27,7 @@ https://hpsr2020.ieee-hpsr.org/program/tutorials/){:target="_blank"})
 The rose-srv6 VM is currently available for the Virtualbox hypervisor ([download](https://www.virtualbox.org/wiki/Downloads)) and for the VMware hypervisor.
 For Virtualbox, we also support Vagrant ([download](https://www.vagrantup.com/downloads.html)) to manage the provisioning of the VM.
 
-The rose-srv6 VM will be used in the IEEE HPSR tutorial, if you want to replicate the experiments during the hands-on part.
+The rose-srv6 VM is used in the IEEE HPSR 2020 tutorial and in the IEEE NFV-SDN 2020, if you want to replicate the experiments during the hands-on part.
 We invite you to subscribe to our [slack workspace](http://rose-slack.netgroup.uniroma2.it/) (channel #ieee-nfvsdn-tutorial)
 for getting support about the rose-srv6 VM. See also our [contact page](https://netgroup.github.io/rose/rose-contacts.html).
 

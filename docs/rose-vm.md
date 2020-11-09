@@ -28,7 +28,7 @@ The rose-srv6 VM is currently available for the Virtualbox hypervisor ([download
 For Virtualbox, we also support Vagrant ([download](https://www.vagrantup.com/downloads.html)) to manage the provisioning of the VM.
 
 The rose-srv6 VM will be used in the IEEE HPSR tutorial, if you want to replicate the experiments during the hands-on part.
-We invite you to subscribe to our [slack workspace](http://rose-slack.netgroup.uniroma2.it:3000/) (channel #hpsr-tutorial)
+We invite you to subscribe to our [slack workspace](http://rose-slack.netgroup.uniroma2.it/) (channel #ieee-nfvsdn-tutorial)
 for getting support about the rose-srv6 VM. See also our [contact page](https://netgroup.github.io/rose/rose-contacts.html).
 
 The **password** for the *rose* user on the rose-srv6 VM is `1234`. To adapt the VM

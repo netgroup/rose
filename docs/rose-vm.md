@@ -22,6 +22,9 @@ https://hpsr2020.ieee-hpsr.org/program/tutorials/){:target="_blank"} and in the 
 
 - [ROSE Control Plane : setting up SRv6 tunnels from the SDN controller](https://docs.google.com/document/d/1izO3H8dUt7VoemXtcH-RG4cL127tG9m48edOdFFmktU/){:target="_blank"}
 
+(used in the IEEE NFV-SDN tutorial: [SRv6 and the Network Programming Model Hands-On tutorial](https://nfvsdn2020.ieee-nfvsdn.org/program/tutorials/) ) 
+
+
 ## How to install
 
 The rose-srv6 VM is currently available for the Virtualbox hypervisor ([download](https://www.virtualbox.org/wiki/Downloads)) and for the VMware hypervisor.

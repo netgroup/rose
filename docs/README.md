@@ -167,8 +167,8 @@ NGOSCPS workshop at the CPS-IoT Week 2019, April 15 2019, Montreal, Canada
 "[SERA: SEgment Routing Aware Firewall for Service Function Chaining scenarios](http://netgroup.uniroma2.it/Stefano_Salsano/papers/18-ifip-sera-firewall-sfc.pdf)",<br>
 IFIP Networking 2018 Conference (NETWORKING 2018), Zurich, Switzerland, May 14-16, 2018
 
-- A. AbdelSalam, F. Clad, C. Filsfils, S. Salsano, G. Siracusano and L. Veltri,<br>  
-"[Implementation of Virtual Network Function Chaining through Segment Routing in a Linux-based NFV Infrastructure](https://arxiv.org/pdf/1702.05157)",<br>
+- A. AbdelSalam, F. Clad, C. Filsfils, S. Salsano, G. Siracusano and L. Veltri,<br>
+"[Implementation of Virtual Network Function Chaining through Segment Routing in a Linux-based NFV Infrastructure](https://arxiv.org/pdf/1702.05157)", <br>
  3rd IEEE Conference on Network Softwarization (NetSoft 2017), Bologna, Italy, July 2017.
 
 ### The Team

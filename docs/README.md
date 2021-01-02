@@ -139,6 +139,14 @@ IEEE Transaction on Network and Service Management, Early Access, December 2020 
 "[Segment Routing: a Comprehensive Survey of Research Activities, Standardization Efforts and Implementation Results](https://doi.org/10.1109/COMST.2020.3036826)",<br>
 IEEE Communications Surveys & Tutorials, Early Access, November 2020 ([pdf-preprint](https://arxiv.org/pdf/1904.03471))
 
+- A. Abdelsalam, A. Tulumello, M. Bonola, S. Salsano, C. Filsfils, <br>
+"[Pushing Network Programmability to the Limits with SRv6 uSID and P4](http://dl.ifip.org/db/conf/cnsm/cnsm2020/1570663490.pdf)", 
+16th International Conference on Network and Service Management, CNSM 2020 (Acceptance ratio ~19%), 2-6 November 2020, Virtual Conference. 
+
+- A. Tulumello, A. Mayer, M. Bonola, P. Lungaroni, C. Scarpitta, S. Salsano, A. Abdelsalam, P. Camarillo, D. Dukes, F. Clad, C. Filsfils,<br>
+"[Micro SIDs: a solution for Efficient Representation of Segment IDs in SRv6 Networks](http://dl.ifip.org/db/conf/cnsm/cnsm2020/1570663490.pdf)", 
+16th International Conference on Network and Service Management, CNSM 2020 (Acceptance ratio ~19%), 2-6 November 2020, Virtual Conference. 
+
 - P. Loreti, A. Mayer, P. Lungaroni, S. Salsano, R. Gandhi, C. Filsfils,<br>
 "[Implementation of Accurate Per-Flow Packet Loss Monitoring in Segment Routing over IPv6 Networks](https://arxiv.org/pdf/2004.11414)", 
 IEEE International Conference on High Performance Switching and Routing, (HPSR 2020), 11-14 May 2020, Virtual Conference. 

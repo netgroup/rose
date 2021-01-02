@@ -123,44 +123,52 @@ See the [rose-srv6 VM](rose-vm.md)
 
 ### Scientific papers 
 
-- P. Loreti, A. Mayer, P. Lungaroni, S. Salsano, R. Gandhi, C. Filsfils,
+- A. Mayer, P. Loreti, L. Bracciale, P. Lungaroni, S. Salsano, C. Filsfils,<br>
+["Performance Monitoring with H^2: Hybrid Kernel/eBPF data plane for SRv6 based Hybrid SDN"](https://doi.org/10.1016/j.comnet.2020.107705),<br>
+Elsevier Computer Networks, Vol. 185, 11 February 2021 ([pdf-preprint](http://netgroup.uniroma2.it/Stefano_Salsano/papers/20-srv6-hybrid-sdn-hike.pdf))
+
+- P. Loreti, A. Mayer, P. Lungaroni, F. Lombardo, C. Scarpitta, G. Sidoretti, L. Bracciale, M. Ferrari, S. Salsano, A. Abdelsalam, R. Gandhi, C. Filsfils,<br>
+["SRv6-PM: A Cloud-Native Architecture for Performance Monitoring of SRv6 Networks"](https://arxiv.org/pdf/2007.08633.pdf),<br>
+accepted for publication in IEEE Transaction on Network and Service Management, special issue on “Advanced Management of Softwarized Networks” ([pdf-preprint](https://arxiv.org/pdf/2007.08633.pdf))
+
+- A. Abdelsalam, P. L. Ventre, C. Scarpitta, A. Mayer, S. Salsano, P. Camarillo, F. Clad, C. Filsfils,<br>
+"[SRPerf: a Performance Evaluation Framework for IPv6 Segment Routing](https://doi.org/10.1109/TNSM.2020.3048328)",<br>
+IEEE Transaction on Network and Service Management, Early Access, December 2020 ([pdf-preprint](https://arxiv.org/pdf/2001.06182))
+
+- P. L. Ventre, S. Salsano, M. Polverini, A. Cianfrani, A. Abdelsalam, C. Filsfils, P. Camarillo, F. Clad,<br>
+"[Segment Routing: a Comprehensive Survey of Research Activities, Standardization Efforts and Implementation Results](https://doi.org/10.1109/COMST.2020.3036826)",<br>
+IEEE Communications Surveys & Tutorials, Early Access, November 2020 ([pdf-preprint](https://arxiv.org/pdf/1904.03471))
+
+- P. Loreti, A. Mayer, P. Lungaroni, S. Salsano, R. Gandhi, C. Filsfils,<br>
 "[Implementation of Accurate Per-Flow Packet Loss Monitoring in Segment Routing over IPv6 Networks](https://arxiv.org/pdf/2004.11414)", 
 IEEE International Conference on High Performance Switching and Routing, (HPSR 2020), 11-14 May 2020, Virtual Conference. 
 
-- P. L. Ventre, M. M. Tajiki, S. Salsano, C. Filsfils,
-"[SDN Architecture and Southbound APIs for IPv6 Segment Routing Enabled Wide Area Networks](https://arxiv.org/pdf/1810.06008.pdf)",
-IEEE Transaction on Network and Service Management, Vol. 15, Issue 4, Dec 2018
+- P. L. Ventre, M. M. Tajiki, S. Salsano, C. Filsfils,<br>
+"[SDN Architecture and Southbound APIs for IPv6 Segment Routing Enabled Wide Area Networks](https://doi.org/10.1109/TNSM.2018.2876251)",<br>
+IEEE Transaction on Network and Service Management, Vol. 15, Issue 4, Dec 2018 ([pdf-preprint](https://arxiv.org/pdf/1810.06008.pdf))
 
-- P. L. Ventre, S. Salsano, M. Polverini, A. Cianfrani, A. Abdelsalam, C. Filsfils, P. Camarillo, F. Clad,
-"[Segment Routing: a Comprehensive Survey of Research Activities, Standardization Efforts and Implementation Results](https://arxiv.org/pdf/1904.03471)",
-Submitted to a journal on June 2019, currently under review after first revision.
-
-- A. Abdelsalam, P. L. Ventre, C. Scarpitta, A. Mayer, S. Salsano, P. Camarillo, F. Clad, C. Filsfils,
-"[SRPerf: a Performance Evaluation Framework for IPv6 Segment Routing](https://arxiv.org/pdf/2001.06182)",
-Submitted to a journal, currently under review.
-
-- A. Mayer, S. Salsano, P. L. Ventre, A. Abdelsalam, L. Chiaraviglio, C. Filsfils,
-"[An Efficient Linux Kernel Implementation of Service Function Chaining for legacy VNFs based on IPv6 Segment Routing](https://arxiv.org/pdf/1901.00936)",
+- A. Mayer, S. Salsano, P. L. Ventre, A. Abdelsalam, L. Chiaraviglio, C. Filsfils,<br>
+"[An Efficient Linux Kernel Implementation of Service Function Chaining for legacy VNFs based on IPv6 Segment Routing](https://arxiv.org/pdf/1901.00936)",<br>
 5th IEEE International Conference on Network Softwarization (NetSoft 2019), 24-28 June 2019, Paris, France
 
-- A. Mayer, E. Altomare, S. Salsano, F. Lo Presti, C. Filsfils,
-"[The Network as a Computer with IPv6 Segment Routing: a Novel Distributed Processing Model for the Internet of Things](https://www.cse.wustl.edu/~cdgill/ngoscps2019/papers/NGOSCPS2019_Mayer_etal.pdf)",
-NGOSCPS workshop at the CPS-IoT Week 2019, April 15 2019, Montreal, Canada (pdf)
+- A. Mayer, E. Altomare, S. Salsano, F. Lo Presti, C. Filsfils,<br>
+"[The Network as a Computer with IPv6 Segment Routing: a Novel Distributed Processing Model for the Internet of Things](https://www.cse.wustl.edu/~cdgill/ngoscps2019/papers/NGOSCPS2019_Mayer_etal.pdf)",<br>
+NGOSCPS workshop at the CPS-IoT Week 2019, April 15 2019, Montreal, Canada
 
-- A. Abdelsalam, S. Salsano, F. Clad, P. Camarillo, C. Filsfils,
-"[SR-Snort: IPv6 Segment Routing Aware IDS/IPS](http://netgroup.uniroma2.it/Stefano_Salsano/papers/18-sr-snort-demo.pdf)",
+- A. Abdelsalam, S. Salsano, F. Clad, P. Camarillo, C. Filsfils,<br>
+"[SR-Snort: IPv6 Segment Routing Aware IDS/IPS](http://netgroup.uniroma2.it/Stefano_Salsano/papers/18-sr-snort-demo.pdf)",<br>
 2018 IEEE Conference on Network Function Virtualization and Software Defined Networks – Demo Track – NFV-SDN’18, Verona, Italy, Nov 27-29, 2018
 
-- A. Abdelsalam, P. L. Ventre, A. Mayer, S. Salsano, P. Camarillo, F. Clad, C. Filsfils,
-"[Performance of IPv6 Segment Routing in Linux Kernel](http://netgroup.uniroma2.it/Stefano_Salsano/papers/18_srv6_perf_sr_sfc_workshop_2018.pdf)",
-1st Workshop on Segment Routing and Service Function Chaining (SR+SFC 2018) at IEEE CNSM 2018, 5 Nov 2018, Rome, Italy (pdf)
+- A. Abdelsalam, P. L. Ventre, A. Mayer, S. Salsano, P. Camarillo, F. Clad, C. Filsfils,<br>
+"[Performance of IPv6 Segment Routing in Linux Kernel](http://netgroup.uniroma2.it/Stefano_Salsano/papers/18_srv6_perf_sr_sfc_workshop_2018.pdf)",<br>
+1st Workshop on Segment Routing and Service Function Chaining (SR+SFC 2018) at IEEE CNSM 2018, 5 Nov 2018, Rome, Italy
 
-- A. Abdelsalam, S. Salsano, F. Clad, P. Camarillo, C. Filsfils,
-"[SERA: SEgment Routing Aware Firewall for Service Function Chaining scenarios](http://netgroup.uniroma2.it/Stefano_Salsano/papers/18-ifip-sera-firewall-sfc.pdf)",
+- A. Abdelsalam, S. Salsano, F. Clad, P. Camarillo, C. Filsfils,<br>
+"[SERA: SEgment Routing Aware Firewall for Service Function Chaining scenarios](http://netgroup.uniroma2.it/Stefano_Salsano/papers/18-ifip-sera-firewall-sfc.pdf)",<br>
 IFIP Networking 2018 Conference (NETWORKING 2018), Zurich, Switzerland, May 14-16, 2018
 
-- A. AbdelSalam, F. Clad, C. Filsfils, S. Salsano, G. Siracusano and L. Veltri  
-"[Implementation of Virtual Network Function Chaining through Segment Routing in a Linux-based NFV Infrastructure](https://arxiv.org/pdf/1702.05157)",  
+- A. AbdelSalam, F. Clad, C. Filsfils, S. Salsano, G. Siracusano and L. Veltri,<br>  
+"[Implementation of Virtual Network Function Chaining through Segment Routing in a Linux-based NFV Infrastructure](https://arxiv.org/pdf/1702.05157)",<br>
  3rd IEEE Conference on Network Softwarization (NetSoft 2017), Bologna, Italy, July 2017.
 
 ### The Team
@@ -170,9 +178,11 @@ IFIP Networking 2018 Conference (NETWORKING 2018), Zurich, Switzerland, May 14-1
 - Andrea Mayer
 - Paolo Lungaroni
 - Carmine Scarpitta
+- Giulio Sidoretti
 - Pier Luigi Ventre
 - Pierpaolo Loreti
 - Francesco Lombardo
+- Lorenzo Bracciale
 - Mohammad M. Tajiki
 
 [//]: # "see \cite{idsrarch}\cite{filsfils2015segment}"

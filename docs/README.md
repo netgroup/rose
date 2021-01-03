@@ -146,19 +146,19 @@ accepted for publication in IEEE Transaction on Network and Service Management, 
 IEEE Transaction on Network and Service Management, Early Access, December 2020 ([pdf-preprint](https://arxiv.org/pdf/2001.06182))
 
 - P. L. Ventre, S. Salsano, M. Polverini, A. Cianfrani, A. Abdelsalam, C. Filsfils, P. Camarillo, F. Clad,<br>
-"[Segment Routing: a Comprehensive Survey of Research Activities, Standardization Efforts and Implementation Results](https://doi.org/10.1109/COMST.2020.3036826)",<br>
+"[Segment Routing: a Comprehensive Survey of Research Activities, Standardization Efforts and Implementation Results](https://doi.org/10.1109/COMST.2020.3036826)", <br>
 IEEE Communications Surveys & Tutorials, Early Access, November 2020 ([pdf-preprint](https://arxiv.org/pdf/1904.03471))
 
 - A. Abdelsalam, A. Tulumello, M. Bonola, S. Salsano, C. Filsfils, <br>
-"[Pushing Network Programmability to the Limits with SRv6 uSID and P4](https://doi.org/10.1145/3426744.3431331)", 
+"[Pushing Network Programmability to the Limits with SRv6 uSID and P4](https://doi.org/10.1145/3426744.3431331)", <br> 
 Demo Paper, 3rd P4 Workshop in Europe, EuroP4'20, 1 December 2020, Virtual Conference. 
 
-- A. Tulumello, A. Mayer, M. Bonola, P. Lungaroni, C. Scarpitta, S. Salsano, A. Abdelsalam, P. Camarillo, D. Dukes, F. Clad, C. Filsfils,<br>
-"[Micro SIDs: a solution for Efficient Representation of Segment IDs in SRv6 Networks](https://doi.org/10.23919/CNSM50824.2020.9269075)", 
+- A. Tulumello, A. Mayer, M. Bonola, P. Lungaroni, C. Scarpitta, S. Salsano, A. Abdelsalam, P. Camarillo, D. Dukes, F. Clad, C. Filsfils, <br>
+"[Micro SIDs: a solution for Efficient Representation of Segment IDs in SRv6 Networks](https://doi.org/10.23919/CNSM50824.2020.9269075)", <br> 
 16th International Conference on Network and Service Management, CNSM 2020 (Acceptance ratio ~19%), 2-6 November 2020, Virtual Conference ([pdf](http://dl.ifip.org/db/conf/cnsm/cnsm2020/1570663490.pdf)). 
 
 - P. Loreti, A. Mayer, P. Lungaroni, S. Salsano, R. Gandhi, C. Filsfils,<br>
-"[Implementation of Accurate Per-Flow Packet Loss Monitoring in Segment Routing over IPv6 Networks](10.1109/HPSR48589.2020.9098988)", 
+"[Implementation of Accurate Per-Flow Packet Loss Monitoring in Segment Routing over IPv6 Networks](10.1109/HPSR48589.2020.9098988)", <br>
 IEEE International Conference on High Performance Switching and Routing, HPSR 2020, 11-14 May 2020, Virtual Conference ([pdf-preprint](https://arxiv.org/pdf/2004.11414)). 
 
 - P. L. Ventre, M. M. Tajiki, S. Salsano, C. Filsfils,<br>

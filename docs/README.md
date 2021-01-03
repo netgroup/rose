@@ -22,7 +22,7 @@ If you want to contribute to the ecosystem, provide feedback or **get in touch w
 
 [SRv6 PM - Performance Monitoring](#srv6-pm-srv6-performance-monitoring) 
 
-
+[HIKe (HybrId Kernel eBPF forwarding)](#hike-hybrid-kernel-ebpf-forwarding)
 
 [SRv6 SDN](#srv6-sdn)
 
@@ -79,7 +79,11 @@ allows expressing SRv6 segments with a very compact and efficient representation
 
 ### HIKe (HybrId Kernel eBPF forwarding)
 
-[HIKe](https://netgroup.github.io/hike/) is a programmable data plane architecture that architecture integrates the packet forwarding and processing based on the standard Linux kernel networking with the ones based on custom designed eBPF programs. HIKe does not want to trade flexibility and generality of Linux kernel networking with eBPF performances, but want to take the best of both worlds. We use HIKe to speed up the performance of SRv6 software routers (altough HIKe is not limited to SRv6!) 
+[HIKe](https://netgroup.github.io/hike/) is a programmable data plane architecture that integrates the 
+packet forwarding and processing based on the standard Linux kernel networking with the ones based on 
+custom designed eBPF programs. HIKe does not want to trade flexibility and generality of Linux kernel 
+networking with eBPF performances, but want to take the best of both worlds. We use HIKe to speed up 
+the performance of SRv6 software routers (altough HIKe is not limited to SRv6!). 
 
 ### SRv6 SDN
 

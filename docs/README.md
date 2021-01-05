@@ -81,9 +81,9 @@ allows expressing SRv6 segments with a very compact and efficient representation
 
 [HIKe](https://netgroup.github.io/hike/) is a programmable data plane architecture that integrates the 
 packet forwarding and processing based on the standard Linux kernel networking with the ones based on 
-custom designed eBPF programs. HIKe does not want to trade flexibility and generality of Linux kernel 
-networking with eBPF performances, but want to take the best of both worlds. We use HIKe to speed up 
-the performance of SRv6 software routers (altough HIKe is not limited to SRv6!). 
+custom designed eBPF programs. HIKe does not want to trade the flexibility and generality of Linux kernel 
+networking with eBPF performances, but wants to take the best of both worlds. In the context of the ROSE
+project, we use HIKe to speed up the performance of SRv6 software routers (altough HIKe is not limited to SRv6!). 
 
 ### SRv6 SDN
 

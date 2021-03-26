@@ -200,6 +200,7 @@ IFIP Networking 2018 Conference (NETWORKING 2018), Zurich, Switzerland, May 14-1
 - Pier Luigi Ventre
 - Pierpaolo Loreti
 - Francesco Lombardo
+- Luca Veltri
 - Lorenzo Bracciale
 - Mohammad M. Tajiki
 

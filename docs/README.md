@@ -61,14 +61,14 @@ The extension is available from 0.5 release.
 ### SRv6 uSID (micro segment) implementation in Linux
 
 [This project](https://netgroup.github.io/srv6-usid-linux-kernel/) implements the SRv6 "micro segment"
-(uSID for short) solution in Linux.
+(uSID for short) solution in Linux. This solution corresponds to the NEXT-C-SID Flavor defined in the Internet Draft [Compressed SRv6 Segment List Encoding in SRH](https://datatracker.ietf.org/doc/draft-filsfilscheng-spring-srv6-srh-compression/).
 
 The processing of micro segments is performed by the Linux kernel, extending the existing SRv6 implementation. The iproute2 userspace tool has been modified to support the configuration of the SRv6 uSIDs.
 
 ### SRv6 uSID (micro segment) implementation on P4
 
 [p4-srv6-usid](https://netgroup.github.io/p4-srv6-usid/) implements the SRv6 "micro segment"
-(uSID for short) solution using the P4 language and shows a DEMO.
+(uSID for short) solution using the P4 language and shows a DEMO. This solution corresponds to the NEXT-C-SID Flavor defined in the Internet Draft [Compressed SRv6 Segment List Encoding in SRH](https://datatracker.ietf.org/doc/draft-filsfilscheng-spring-srv6-srh-compression/).
 
 The SRv6 uSID solution is an extension to the SRv6 Network Programming model, which
 allows expressing SRv6 segments with a very compact and efficient representation.

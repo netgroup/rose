@@ -26,6 +26,8 @@ If you want to contribute to the ecosystem, provide feedback or **get in touch w
 
 [SRv6 SDN](#srv6-sdn)
 
+[k8s-SRv6 - Extending Kubernetes with SRv6](#k8s-srv6)
+
 [rose-srv6 ready-to-go Virtual Machine](#rose-srv6-vm)
 
 [Emulation tools](#emulation-tools)
@@ -89,6 +91,12 @@ project, we use HIKe to speed up the performance of SRv6 software routers (altou
 
 [SRv6 SDN](https://netgroup.github.io/srv6-sdn/) a collection of modules implementing different functionalities of a SDN controller for SRv6
 
+### k8s-SRv6
+
+[k8s-SRv6] extends Kubernetes to make use of SRv6. We have extended the Calico-VPP Kubernetes networking plugin with a new SRv6 overlay that supports:
+- Encapsulation of both IPv4 and IPv6 pods networking
+- Traffic Engineering of the overlay tunnels 
+
 ### rose-srv6 VM
 
 The [rose-srv6 VM](rose-vm.md) is a ready-to-go Virtual Machine available for tutorial and development purposes.
@@ -132,6 +140,10 @@ TODO: Upload videos and add links
 See the [rose-srv6 VM](rose-vm.md)
 
 ### Scientific papers 
+
+- A. Tulumello, A. Mayer, M. Bonola, P. Lungaroni, C. Scarpitta, S. Salsano, A. Abdelsalam, P. Camarillo, D. Dukes, F. Clad, C. Filsfils, <br>
+"[Micro SIDs: a solution for Efficient Representation of Segment IDs in SRv6 Networks](https://doi.org/10.1109/TNSM.2022.3205265)", <br>
+IEEE Transaction on Network and Service Management, 2022, ([pdf-preprint](http://netgroup.uniroma2.it/Stefano_Salsano/papers/22_tnsm_srv6_micro_sids.pdf))
 
 - A. Mayer, P. Loreti, L. Bracciale, P. Lungaroni, S. Salsano, C. Filsfils,<br>
 ["Performance Monitoring with H^2: Hybrid Kernel/eBPF data plane for SRv6 based Hybrid SDN"](https://doi.org/10.1016/j.comnet.2020.107705),<br>

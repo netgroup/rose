@@ -93,7 +93,7 @@ project, we use HIKe to speed up the performance of SRv6 software routers (altou
 
 ### k8s-SRv6
 
-[k8s-SRv6] extends Kubernetes to make use of SRv6. We have extended the Calico-VPP Kubernetes networking plugin with a new SRv6 overlay that supports:
+[k8s-SRv6](https://netgroup.github.io/k8s-srv6/) extends Kubernetes to make use of SRv6. We have extended the Calico-VPP Kubernetes networking plugin with a new SRv6 overlay that supports:
 - Encapsulation of both IPv4 and IPv6 pods networking
 - Traffic Engineering of the overlay tunnels 
 

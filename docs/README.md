@@ -28,7 +28,7 @@ If you want to contribute to the ecosystem, provide feedback or **get in touch w
 
 [k8s-SRv6 - Extending Kubernetes with SRv6](#k8s-srv6)
 
-[rose-srv6 ready-to-go Virtual Machine](#rose-srv6-vm)
+[rose-srv6 ready-to-go Virtual Machine (and Tutorial)](#rose-srv6-vm)
 
 [Emulation tools](#emulation-tools)
 
@@ -150,16 +150,16 @@ IEEE Transaction on Network and Service Management, 2022, ([pdf-preprint](http:/
 Elsevier Computer Networks, Vol. 185, 11 February 2021 ([pdf-preprint](http://netgroup.uniroma2.it/Stefano_Salsano/papers/20-srv6-hybrid-sdn-hike.pdf))
 
 - P. Loreti, A. Mayer, P. Lungaroni, F. Lombardo, C. Scarpitta, G. Sidoretti, L. Bracciale, M. Ferrari, S. Salsano, A. Abdelsalam, R. Gandhi, C. Filsfils,<br>
-["SRv6-PM: A Cloud-Native Architecture for Performance Monitoring of SRv6 Networks"](https://arxiv.org/pdf/2007.08633.pdf),<br>
-accepted for publication in IEEE Transaction on Network and Service Management, special issue on “Advanced Management of Softwarized Networks” ([pdf-preprint](https://arxiv.org/pdf/2007.08633.pdf))
+["SRv6-PM: A Cloud-Native Architecture for Performance Monitoring of SRv6 Networks"](https://doi.org/10.1109/TNSM.2021.3052603),<br>
+IEEE Transaction on Network and Service Management, special issue on “Advanced Management of Softwarized Networks”, March 2021 ([pdf-preprint](https://arxiv.org/pdf/2007.08633.pdf))
 
 - A. Abdelsalam, P. L. Ventre, C. Scarpitta, A. Mayer, S. Salsano, P. Camarillo, F. Clad, C. Filsfils,<br>
 "[SRPerf: a Performance Evaluation Framework for IPv6 Segment Routing](https://doi.org/10.1109/TNSM.2020.3048328)",<br>
-IEEE Transaction on Network and Service Management, Early Access, December 2020 ([pdf-preprint](https://arxiv.org/pdf/2001.06182))
+IEEE Transaction on Network and Service Management, June 2021 ([pdf-preprint](https://arxiv.org/pdf/2001.06182))
 
 - P. L. Ventre, S. Salsano, M. Polverini, A. Cianfrani, A. Abdelsalam, C. Filsfils, P. Camarillo, F. Clad,<br>
 "[Segment Routing: a Comprehensive Survey of Research Activities, Standardization Efforts and Implementation Results](https://doi.org/10.1109/COMST.2020.3036826)", <br>
-IEEE Communications Surveys & Tutorials, Early Access, November 2020 ([pdf-preprint](https://arxiv.org/pdf/1904.03471))
+IEEE Communications Surveys & Tutorials, Firstquarter 2021 ([pdf-preprint](https://arxiv.org/pdf/1904.03471))
 
 - A. Abdelsalam, A. Tulumello, M. Bonola, S. Salsano, C. Filsfils, <br>
 "[Pushing Network Programmability to the Limits with SRv6 uSID and P4](https://doi.org/10.1145/3426744.3431331)", <br> 

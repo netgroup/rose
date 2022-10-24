@@ -28,7 +28,7 @@ If you want to contribute to the ecosystem, provide feedback or **get in touch w
 
 [k8s-SRv6 - Extending Kubernetes with SRv6](#k8s-srv6)
 
-[rose-srv6 ready-to-go Virtual Machine (and Tutorial)](#rose-srv6-vm)
+[rose-srv6 ready-to-go Virtual Machine (and Tutorial)](#rose-srv6-vm-and-tutorial)
 
 [Emulation tools](#emulation-tools)
 
@@ -97,7 +97,7 @@ project, we use HIKe to speed up the performance of SRv6 software routers (altou
 - Encapsulation of both IPv4 and IPv6 pods networking
 - Traffic Engineering of the overlay tunnels 
 
-### rose-srv6 VM
+### rose-srv6 VM and tutorials
 
 The [rose-srv6 VM](rose-vm.md) is a ready-to-go Virtual Machine available for tutorial and development purposes.
 The rose-srv6 VM includes an emulated network environment based on Mininet and 

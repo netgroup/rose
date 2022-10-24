@@ -28,7 +28,7 @@ If you want to contribute to the ecosystem, provide feedback or **get in touch w
 
 [k8s-SRv6 - Extending Kubernetes with SRv6](#k8s-srv6)
 
-[rose-srv6 ready-to-go Virtual Machine (and Tutorial)](#rose-srv6-vm-and-tutorials)
+[rose-srv6 ready-to-go Virtual Machine (and Tutorials)](#rose-srv6-vm-and-tutorials)
 
 [Emulation tools](#emulation-tools)
 
